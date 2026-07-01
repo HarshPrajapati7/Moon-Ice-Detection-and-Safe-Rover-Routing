@@ -1,0 +1,45 @@
+# ---- Data & large binaries (root only; NOT web/public/data) ----
+/data/
+/models/
+/outputs/
+/ohrc dataset/
+*.bc
+*.bsp
+*.zip
+*.img
+*.tif
+*.tiff
+*.har
+Moon_1_3474.glb
+
+# ---- Python env / caches ----
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ---- Node / web build ----
+node_modules/
+web/dist/
+web/public/_cmu_fonts_backup/
+
+# ---- Internal / hidden working files (root only) ----
+/scripts/
+/src/
+/assets/
+build_notebook*.py
+build_eval_notebook.py
+build_rover_navigation_notebook.py
+build_figures_notebook.py
+/*.pptx
+~$*
+script.md
+pitch_deck.md
+presentation.md
+technical_details.md
+design.md
+
+# ---- OS ----
+Thumbs.db
+.DS_Store
